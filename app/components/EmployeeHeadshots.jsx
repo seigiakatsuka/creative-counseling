@@ -47,10 +47,6 @@ const EmployeeSlider = () => {
         return () => clearInterval(interval);
     }, [maxSlides]);
 
-    const goToSlide = (index) => {
-        setCurrentSlide(Math.min(index, maxSlides));
-    };
-
     const goToPrevious = () => {
         setCurrentSlide((prev) => {
             if (prev <= 0) {

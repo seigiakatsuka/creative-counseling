@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useState } from 'react';
 import { services } from '@/app/util/services';
 
@@ -62,9 +63,9 @@ const ServicesTable = () => {
 
                             {/* Optional Call-to-Action */}
                             <div className="mt-8">
-                                <button className="rounded-full text-bold text-white bg-linear-to-r from-purple-500 to-orange-500 px-4 py-2 hoever:bg-linear-to-r hover:from-purple-600 hover:to-orange-600 transition duration-300" href="/contact">
+                                <Link className="rounded-full text-bold text-white bg-linear-to-r from-purple-500 to-orange-500 px-4 py-2 hoever:bg-linear-to-r hover:from-purple-600 hover:to-orange-600 transition duration-300"  href="/contact">
                                     Learn More
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </main>
