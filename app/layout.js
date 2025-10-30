@@ -1,3 +1,4 @@
+import React from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -37,21 +38,27 @@ const quicksand = localFont({
 });
 
 export const metadata = {
-  title: "Creative Counseling",
-  description: "Creative Counseling is a platform that connects individuals with professional counselors for personalized mental health support.",
+  title: {
+      template: "%s |Creative Counseling",
+      default: "Creative Counseling",
+  },
+    description: "Creative Counseling is a platform that connects individuals with professional counselors for personalized mental health support.",
+    metadataBase: new URL("https://creative-counseling.net"),
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${quicksand.variable} antialiased`}>
+
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${quicksand.className} antialiased`}>
       <body>
-      <header>
+        <link rel="icon" href="/imgs/logo/logo.jpg" type="image/x-icon" />
+        <header>
           <NavBar />
-      </header>
-        {children}
-      <footer>
-        <Footer/>
-      </footer>
+        </header>
+            {children}
+        <footer>
+            <Footer/>
+        </footer>
       </body>
     </html>
   );

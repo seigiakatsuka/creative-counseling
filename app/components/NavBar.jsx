@@ -20,8 +20,8 @@ const NavBar = () => {
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center">
                             <Image src="/imgs/logo/logo.jpg" alt="logo" width={40} height={40} className="rounded-full" />
-                            <span className="ml-2 text-2xl font-bold text-purple-600 hover:text-purple-800 transition-colors duration-300">Creative</span>
-                            <span className="ml-2 text-2xl font-bold text-orange-500 hover:text-orange-700 transition-colors duration-300">Counseling</span>
+                            <span className="ml-2 text-2xl font-bold text-purple-600 ">Creative</span>
+                            <span className="ml-2 text-2xl font-bold text-orange-500 ">Counseling</span>
                         </div>
                     </a>
 
@@ -34,7 +34,7 @@ const NavBar = () => {
 
                     {/* Hamburger Menu Button */}
                     <button
-                        className="md:hidden p-2 rounded-md hover:bg-gray-100 transition-colors duration-200"
+                        className="md:hidden p-2 rounded-md hover:bg-gray-300 transition-colors duration-200"
                         onClick={toggleMenu}
                         aria-label="Toggle menu"
                     >

@@ -10,10 +10,10 @@ const ServicesTable = () => {
 
     return (
         <div className="w-full max-w-7xl mx-auto p-4">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="rounded-lg shadow-lg overflow-hidden">
                 <div className="flex flex-col lg:flex-row min-h-[600px]">
                     {/* Aside Navigation - 1:4 ratio */}
-                    <aside className="lg:w-1/4 border-r bg-gray-100 border-gray-300">
+                    <aside className="lg:w-1/4 border-r bg-[#FDF7F0] border-gray-300">
                         <div className="p-4">
 
                             <nav className="space-y-2">
@@ -21,10 +21,10 @@ const ServicesTable = () => {
                                     <button
                                         key={service}
                                         onClick={() => setActiveService(service)}
-                                        className={`w-full text-left px-4 py-3 rounded-md text-sm font-medium transition-colors duration-200 ${
+                                        className={`w-full text-left px-4 py-3 rounded-md text-sm shadow-md font-medium transition-colors duration-200 ${
                                             activeService === service
                                                 ? 'bg-purple-600 text-white shadow-md'
-                                                : 'text-gray-700 hover:bg-purple-200 hover:text-gray-900'
+                                                : 'bg-white text-gray-700 hover:bg-purple-200 hover:text-gray-900'
                                         }`}
                                     >
                                         {service}
@@ -35,7 +35,7 @@ const ServicesTable = () => {
                     </aside>
 
                     {/* Content Area - 3:4 ratio */}
-                    <main className="lg:w-3/4 p-6">
+                    <main className="lg:w-3/4 bg-[#FDF7F0] p-6">
                         <div className="h-full">
 
                             {/* Service Image */}
@@ -48,7 +48,7 @@ const ServicesTable = () => {
                             </div>
 
                             {/* Service Title */}
-                            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+                            <h1 className="text-3xl font-bold text-purple-600 mb-4">
                                 {services[activeService].title}
                             </h1>
 

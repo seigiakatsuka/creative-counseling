@@ -13,7 +13,7 @@ const Footer = () => {
                             <br/>
                             Winston-Salem, NC, United States
                         </p>
-                        <div>
+                        <div className="flex space-x-4 mt-4">
                             <a href="https://facebook.com/creativecounseling.net" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="h-5 w-5 fill-current hover:text-white"><TiSocialFacebook /></a>
                         </div>
                     </div>

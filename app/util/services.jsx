@@ -1,7 +1,7 @@
 
 export const services = {
     'Clinical Assessment': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/couch.jpg',
         title: 'Clinical Assessment',
         description: [
             'Comprehensive clinical evaluations to assess mental health conditions, substance use disorders, and treatment needs. Our licensed professionals conduct thorough assessments using evidence-based tools and methodologies to develop personalized treatment plans.',
@@ -10,7 +10,7 @@ export const services = {
         ]
     },
     'Clinical Supervision': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/three_women_sitting.jpg',
         title: 'Clinical Supervision',
         description: [
             'Professional supervision services for licensed and pre-licensed clinicians. We provide guidance, support, and mentorship to help healthcare professionals develop their skills, maintain ethical standards, and deliver quality patient care.',
@@ -19,7 +19,7 @@ export const services = {
         ]
     },
     'Counseling': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/two_women_talking.jpg',
         title: 'Counseling',
         description: [
             'Individual, group, and family counseling services addressing a wide range of mental health and behavioral concerns. Our experienced therapists use various therapeutic approaches tailored to each client\'s unique needs and goals.',
@@ -28,7 +28,7 @@ export const services = {
         ]
     },
     'DWI Assessments': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/writing_notes.jpg',
         title: 'DWI Assessments',
         description: [
             'Court-ordered and voluntary driving while intoxicated assessments to evaluate substance use patterns and recommend appropriate treatment interventions. Our certified assessors provide comprehensive evaluations that meet legal and clinical requirements.',
@@ -37,7 +37,7 @@ export const services = {
         ]
     },
     'Education and Training': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/studying.jpg',
         title: 'Education and Training',
         description: [
             'Professional development programs and educational workshops for healthcare providers, organizations, and community groups. We offer continuing education credits and specialized training in various mental health and substance abuse topics.',
@@ -46,7 +46,7 @@ export const services = {
         ]
     },
     'GLP-1 Medical Weight Loss': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/light_stretch.jpg',
         title: 'GLP-1 Medical Weight Loss',
         description: [
             'Medically supervised weight loss programs utilizing GLP-1 receptor agonists. Our comprehensive approach includes medical monitoring, nutritional counseling, and lifestyle coaching to help patients achieve sustainable weight loss goals.',
@@ -55,7 +55,7 @@ export const services = {
         ]
     },
     'Health and Nutrition Services': {
-        image: '/api/placeholder/400/250',
+        image: '/imgs/stock_photos/veg_photo.jpg',
         title: 'Health and Nutrition Services',
         description: [
             'Comprehensive nutrition counseling and health coaching services designed to promote overall wellness. Our registered dietitians and health coaches work with clients to develop personalized nutrition plans and healthy lifestyle habits.',

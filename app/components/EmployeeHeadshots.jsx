@@ -71,7 +71,7 @@ const EmployeeSlider = () => {
     return (
         <div className="w-full max-w-6xl mx-auto p-6">
 
-            <div className="relative rounded-2xl overflow-hidden">
+            <div className="relative rounded-2xl top-4 max-w-5xl overflow-hidden">
                 {/* Main Slider Container */}
                 <div className="relative h-96 overflow-hidden">
                     <div
